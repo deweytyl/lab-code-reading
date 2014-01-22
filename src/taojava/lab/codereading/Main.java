@@ -17,6 +17,13 @@ public class Main
       {
         pen.println (i + " squared is " + MathUtils.square (i));
       } // for
+    
+    for (double j = 1; j < 10; j++)
+      {
+        double num = j / 10;
+        pen.println (num + " squared is " + MathUtils.square(num));
+      } // for
+    
     pen.close ();
   } // main(String[])
 } // class Main
